@@ -4,6 +4,6 @@ async function myFunction() {
 }
 
 myFunction().then(
-  function(value) { /* code if successful */ },
-  function(error) { /* code if some error */ }
+  function(value) { console.log("success")},
+  function(error) { console.log("error") }
 );
